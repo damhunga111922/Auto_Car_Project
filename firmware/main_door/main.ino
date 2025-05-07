@@ -5,7 +5,8 @@ const int openButton = 3;
 const int closeSw = 4;
 const int openSw = 5;
 const int rainSensorPin = 6;
-const int modePin = 7; 
+const int modePin = 7;
+const int infraredSensor = 12; 
  
 int closeButtonState = 0;  
 int openButtonState = 0;  
@@ -13,6 +14,7 @@ int closeSwState = 0;
 int openSwState = 0;
 int rainState = 0;
 int mode = 0;
+int infraredSensorState = 0;
 
 const int stepsPerRevolution = 32;
 Stepper myStepper(stepsPerRevolution, 8, 10, 9, 11);
@@ -23,12 +25,19 @@ void setup() {
   pinMode (closeSw, INPUT);
   pinMode (openSw, INPUT);
   pinMode(rainSensorPin, INPUT);
+  pinMode (infraredSensor, INPUT);
   myStepper.setSpeed(60);
   Serial.begin(9600);
 }
 
 void loop(){
-  mode = digitalRead(modePin);
+  infraredSensorState = digitalRead(infraredSensor);
+  if(infraredSensorState == 0){
+    Serial.println("Co vat can");
+    stop();
+  }
+  if(infraredSensorState == 1){
+    mode = digitalRead(modePin);
   if(mode == 0){
     Serial.println("Che do thu cong");
     manual_control();
@@ -37,6 +46,8 @@ void loop(){
     Serial.println("Che do tu dong");
     auto_control();
   }
+}
+
 }
 
 
