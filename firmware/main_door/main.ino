@@ -180,11 +180,11 @@ void auto_control() {
 }
 
 void open(){
-    myStepper.step(-stepsPerRevolution);
+    myStepper.step(stepsPerRevolution);
     Serial.println("Cua dang mo");
 }
 void close(){
-    myStepper.step(stepsPerRevolution);
+    myStepper.step(-stepsPerRevolution);
     Serial.println("Cua dang dong");
 }
 void stop(){
