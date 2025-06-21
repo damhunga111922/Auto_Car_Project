@@ -4,7 +4,7 @@
 *eMail=
 *
 *Project=main
-*Date=22:26:13
+*Date=16:19:32
 *CreatedBy=Fritzing 0.9.5d.2020-02-07.CD-548-0-3d61c58
 *
 *
@@ -13,37 +13,37 @@
 *Rotation in degree (0-360, math. pos.)
 *
 *No;Value;Package;X;Y;Rotation;Side;Name
-1;;switch-spdt_kit;31.0173;-16.14;0;Bottom;openswitch
-2;;1206 [SMD];152.705;-14.0155;90;Top;modeLed
-3;;3 mm [THT];56.4925;-12.8681;-90;Bottom;LED1
-4;;;106.146;-58.5994;0;Bottom;rainSensor
-5;;switch-spdt;31.3117;-33.3082;0;Bottom;closeSwitch
-6;;;174.469;-30.4403;0;Bottom;Arduino1
-7;;;29.8574;-46.2649;0;Bottom;openbutton
-8;;power_jack_slot;108.951;-6.13887;0;Bottom;J1
-9;10k;THT;9.97304;-46.2489;0;Bottom;R2_openbutton
-10;;;29.7813;-54.4839;0;Bottom;closebutton
-11;;switch-spdt_kit;145.177;-40.9244;90;Bottom;modeSwitch
-12;;THT;31.0465;-82.2567;-90;Bottom;Driver1
-13;10k;THT;133.041;-49.3832;0;Bottom;R1_modeswitch
-14;;;113.411;-24.3439;0;Bottom;SW1
-15;;;194.237;-32.664;90;Bottom;sweepServo
-16;10k;THT;9.72466;-19.3951;0;Bottom;R4_openswitch
-17;;;17.9352;-97.1021;0;Bottom;Hole6
-18;;;44.3631;-67.4013;0;Bottom;Hole8
-19;;THT;48.3694;-20.2069;0;Bottom;modeSwitch
-20;;;181.89;-96.2309;0;Bottom;Hole5
-21;10k;THT;33.9233;-5.0463;0;Bottom;R5_modeswitch
-22;10k;THT;10.0552;-54.6949;0;Bottom;R1_closebutton
-23;;switch-spdt_kit;146.249;-25.0882;90;Bottom;manualcontrolSwitch
-24;;;181.824;-60.7092;0;Bottom;Hole2
-25;;;17.9927;-67.3697;0;Bottom;Hole7
-26;;;44.3075;-96.9913;0;Bottom;Hole4
-27;;;157.084;-78.4764;-90;Bottom;YL-83 - Detection Board1
-28;10k;THT;133.098;-31.6711;0;Bottom;R2_sweepSwitch1
-29;;;132.297;-60.7584;0;Bottom;Hole1
-30;10k;THT;133.222;-15.8974;0;Bottom;R3_sweepSwitch2
-31;;THT;82.0759;-11.6272;0;Bottom;infraredSensor
-32;;;72.1738;-51.9442;0;Bottom;Arduino
-33;;;132.277;-96.261;0;Bottom;Hole3
-34;10k;THT;9.88512;-30.7896;0;Bottom;R3_closeswitch
+1;10k;THT;133.098;-31.6712;0;Bottom;R2_sweepSwitch1
+2;;switch-spdt_kit;145.177;-40.9244;90;Bottom;modeSwitch
+3;;;17.9354;-97.1021;0;Bottom;Hole6
+4;;;194.237;-32.6641;90;Bottom;sweepServo
+5;;;72.174;-51.9444;0;Bottom;Arduino
+6;;;106.146;-58.5993;0;Bottom;rainSensor
+7;;THT;31.0466;-82.2568;-90;Bottom;Driver1
+8;;THT;82.0761;-11.6273;0;Bottom;infraredSensor
+9;10k;THT;133.041;-49.3832;0;Bottom;R1_modeswitch
+10;;switch-spdt_kit;31.0174;-16.1401;0;Bottom;openswitch
+11;10k;THT;33.9235;-5.04637;0;Bottom;R5_modeswitch
+12;;;29.8575;-46.265;0;Bottom;openbutton
+13;;switch-spdt;31.3117;-33.3083;0;Bottom;closeSwitch
+14;;;132.297;-60.7584;0;Bottom;Hole1
+15;;1206 [SMD];152.705;-14.0156;90;Top;modeLed
+16;;;29.7813;-54.4838;0;Bottom;closebutton
+17;;;44.3076;-96.9915;0;Bottom;Hole4
+18;10k;THT;9.88523;-30.7897;0;Bottom;R3_closeswitch
+19;;;181.89;-96.2309;0;Bottom;Hole5
+20;10k;THT;9.97329;-46.2489;0;Bottom;R2_openbutton
+21;;;113.411;-24.344;0;Bottom;SW1
+22;;THT;48.3695;-20.207;0;Bottom;modeSwitch
+23;10k;THT;133.222;-15.8975;0;Bottom;R3_sweepSwitch2
+24;;;174.469;-30.4404;0;Bottom;Arduino1
+25;;;181.824;-60.7093;0;Bottom;Hole2
+26;;;44.3632;-67.4014;0;Bottom;Hole8
+27;;switch-spdt_kit;146.249;-25.0883;90;Bottom;manualcontrolSwitch
+28;;;132.277;-96.2611;0;Bottom;Hole3
+29;10k;THT;10.0554;-54.6949;0;Bottom;R1_closebutton
+30;;3 mm [THT];56.4926;-12.8682;-90;Bottom;LED1
+31;;;17.9927;-67.3697;0;Bottom;Hole7
+32;;;157.084;-78.4765;-90;Bottom;YL-83 - Detection Board1
+33;10k;THT;9.72465;-19.3951;0;Bottom;R4_openswitch
+34;;power_jack_slot;108.951;-6.13894;0;Bottom;J1
